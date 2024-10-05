@@ -9,7 +9,7 @@ export interface NotaReviewProps {
   tamanho?: number;
 }
 
-export default function NotaReview(props: NotaReviewProps) {
+export function NotaReview(props: NotaReviewProps) {
   function notaParaEstrelas(nota: number) {
     const estrelas = [];
     for (let i = 1; i <= 5; i++) {

@@ -16,6 +16,6 @@ export function ListaProdutos() {
       ))}
     </div>
   ) : (
-    <ProdutoNaoEncontrado semBotaVoltar />
+    <ProdutoNaoEncontrado semBotaoVoltar/>
   );
 }

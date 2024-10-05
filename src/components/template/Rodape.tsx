@@ -5,7 +5,7 @@ import {
   IconBrandWhatsapp,
   IconBrandYoutube,
 } from "@tabler/icons-react";
-import { Logo } from "../shared";
+import { Logo } from "../shared/Logo";
 
 export function Rodape() {
   return (

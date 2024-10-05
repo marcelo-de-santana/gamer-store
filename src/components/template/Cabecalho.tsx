@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { IconeCarrinho, Logo } from "../shared";
+import { Logo } from "../shared/Logo";
+import { IconeCarrinho } from "../shared/IconeCarrinho";
 
 export function Cabecalho() {
   const qtdeItens = 0;

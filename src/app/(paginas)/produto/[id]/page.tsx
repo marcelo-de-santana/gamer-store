@@ -5,8 +5,10 @@ export default function PaginaProduto(props: any) {
   const produto = produtos.find((produto) => produto.id === id);
 
   return (
-    <div>
-      <h1>Produto {produto?.nome}</h1>
+    <div className="flex flex-col gap-20 container py-10">
+      <div className="flex flex-col gap-10">
+        <h1>Produto {produto?.nome}</h1>
+      </div>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import { BannerCompra } from "@/components/produto/BannerCompra";
 import InformacoesProduto from "@/components/produto/InformacoesProduto";
 import { ProdutoNaoEncontrado } from "@/components/produto/ProdutoNaoEncontrado";
 import { TituloProduto } from "@/components/produto/TituloProduto";
@@ -12,6 +13,7 @@ export default function PaginaProduto(props: any) {
       <div className="flex flex-col gap-10">
         <TituloProduto produto={produto} />
         <InformacoesProduto produto={produto} />
+        <BannerCompra produto={produto} />
       </div>
       <h1>Produto {produto?.nome}</h1>
     </div>

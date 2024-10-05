@@ -1,3 +1,4 @@
+import InformacoesProduto from "@/components/produto/InformacoesProduto";
 import { ProdutoNaoEncontrado } from "@/components/produto/ProdutoNaoEncontrado";
 import { TituloProduto } from "@/components/produto/TituloProduto";
 import { produtos } from "@/core";
@@ -10,6 +11,7 @@ export default function PaginaProduto(props: any) {
     <div className="flex flex-col gap-20 container py-10">
       <div className="flex flex-col gap-10">
         <TituloProduto produto={produto} />
+        <InformacoesProduto produto={produto} />
       </div>
       <h1>Produto {produto?.nome}</h1>
     </div>

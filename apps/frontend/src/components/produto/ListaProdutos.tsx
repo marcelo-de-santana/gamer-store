@@ -1,4 +1,4 @@
-import { produtos } from "@/core";
+import { produtos } from "@gstore/core";
 import { ProdutoItem } from "./ProdutoItem";
 import { ProdutoNaoEncontrado } from "./ProdutoNaoEncontrado";
 

@@ -6,7 +6,7 @@ export interface InformacoesProdutoProps {
   produto: Produto;
 }
 
-export default function InformacoesProduto(props: InformacoesProdutoProps) {
+export function InformacoesProduto(props: InformacoesProdutoProps) {
   const { produto } = props;
   return produto ? (
     <div className="flex items-center bg-violet-dark rounded-xl p-5">

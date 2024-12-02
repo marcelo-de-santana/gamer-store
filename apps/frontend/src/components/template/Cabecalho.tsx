@@ -1,10 +1,11 @@
+"use client";
 import Link from "next/link";
 import { Logo } from "../shared/Logo";
 import { IconeCarrinho } from "../shared/IconeCarrinho";
+import { useCarrinho } from "@/data/hooks/useCarrinho";
 
 export function Cabecalho() {
-  const qtdeItens = 0;
-  //const {qtdeItens} = useCarrinho()
+  const { qtdeItens } = useCarrinho();
 
   return (
     <div

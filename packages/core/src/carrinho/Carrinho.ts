@@ -2,7 +2,7 @@ import { Produto } from "../produto";
 import { ItemCarrinho } from "./ItemCarrinho";
 
 export class Carrinho {
-  constructor(private readonly itens: ItemCarrinho[] = []) {}
+  constructor(readonly itens: ItemCarrinho[] = []) {}
 
   adicionarItem(produto: Produto): Carrinho {
     const item = this.itemPorProduto(produto);

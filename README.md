@@ -79,3 +79,16 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+
+Para ativar o banco de dados
+
+pastar backend cd apps/backend
+docker compose up -d
+
+Popular o banco de dados
+npx prisma migrate dev
+prisma db seed
+
+Iniciar projeto
+yarn run dev

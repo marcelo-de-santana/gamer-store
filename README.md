@@ -23,7 +23,7 @@ Um e-commerce que permite que os clientes realizem pedidos, oferecendo diversas 
 ## Tecnologias Utilizadas
 
 - **Frontend:** Next.js e React
-- **Backend:** NestJS, Prisma, Docker e PostgreSQL
+- **Backend:** NestJS, Prisma, Docker, PostgreSQL e Swagger
 - **Mobile:** Expo, React Native e React Navigation
 
 ## Arquitetura
@@ -147,6 +147,24 @@ Uma das limitações enfrentadas foi a dificuldade em salvar os dados do banco d
     <tr>
       <td><a id="finalizacao-de-pedido-mobile"></a><strong>Finalização de Pedido</strong></td>
       <td><img style="height:700px; width:auto" src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/mobile/05.png" alt="Finalização de pedido"></td>
+    </tr>
+  </table>
+</div>
+
+
+## Anexos - Backend
+
+A API do backend pode ser acessada em `http://localhost:4000/api`.
+
+<div>
+  <table>
+    <tr>
+      <th>Funcionalidade</th>
+      <th>Imagem</th>
+    </tr>
+    <tr>
+      <td><strong>Estrutura do Backend</strong></td>
+      <td><img src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/backend/01.png" alt="Estrutura do Backend"></td>
     </tr>
   </table>
 </div>

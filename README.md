@@ -15,7 +15,9 @@ Um e-commerce que permite que os clientes realizem pedidos, oferecendo diversas 
 - [Detalhamento do produto](#detalhamento-do-produto-frontend)
 - [Avaliação de preços (ranking de históricos)](#avaliacao-de-precos-ranking-de-historicos-frontend)
 - [Vídeos de review](#videos-de-review-frontend)
-- [Carrinho de compras e finalização de pedido](#carrinho-de-compras-e-finalizacao-de-pedido-frontend)
+- [Carrinho de compras](#carrinho-de-compras-frontend)
+- [Pagamento](#pagamento-frontend)
+- [Finalização de pedido](#finalizacao-de-pedido-frontend)
 
 
 ## Tecnologias Utilizadas
@@ -38,9 +40,9 @@ Uma das limitações enfrentadas foi a dificuldade em salvar os dados do banco d
 ## Como testar
 
 ### Requisitos necessários:
-- [Node.js](https://nodejs.org/)
-- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) instalado via npm
-- [Android Studio e Java](https://reactnative.dev/docs/set-up-your-environment) (Mobile)
+- [**Node.js**](https://nodejs.org/)
+- [**Yarn**](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) instalado via npm
+- [**Android Studio e Java**](https://reactnative.dev/docs/set-up-your-environment) (Mobile)
 
 ### Passos para testar o projeto:
 
@@ -103,8 +105,16 @@ Uma das limitações enfrentadas foi a dificuldade em salvar os dados do banco d
       <td><img src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/frontend/05.png" alt="Vídeos de review"></td>
     </tr>
     <tr>
-      <td><a id="carrinho-de-compras-e-finalizacao-de-pedido-frontend"></a><strong>Carrinho de Compras e Finalização de Pedido</strong></td>
-      <td><img src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/frontend/06.png" alt="Carrinho de compras e finalização de pedido"></td>
+      <td><a id="carrinho-de-compras-frontend"></a><strong>Carrinho de Compras</strong></td>
+      <td><img src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/frontend/06.png" alt="Carrinho de compras"></td>
+    </tr>
+    <tr>
+      <td><a id="pagamento-frontend"></a><strong>Pagamento</strong></td>
+      <td><img src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/frontend/07.png" alt="Pagamento"></td>
+    </tr>
+    <tr>
+      <td><a id="finalizacao-de-pedido-frontend"></a><strong>Finalização de Pedido</strong></td>
+      <td><img src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/frontend/08.png" alt="Finalização de pedido"></td>
     </tr>
   </table>
 </div>
@@ -123,24 +133,20 @@ Uma das limitações enfrentadas foi a dificuldade em salvar os dados do banco d
       <td><img style="height:700px; width:auto" src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/mobile/01.png" alt="Listagem de Produtos"></td>
     </tr>
     <tr>
-      <td><a id="busca-por-filtros-mobile"></a><strong>Busca por Filtros</strong></td>
-      <td><img style="height:700px; width:auto" src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/mobile/02.png" alt="Busca por filtros"></td>
-    </tr>
-    <tr>
       <td><a id="detalhamento-do-produto-mobile"></a><strong>Detalhamento do Produto</strong></td>
-      <td><img style="height:700px; width:auto" src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/mobile/03.png" alt="Detalhamento do produto"></td>
+      <td><img style="height:700px; width:auto" src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/mobile/02.png" alt="Detalhamento do produto"></td>
     </tr>
     <tr>
       <td><a id="avaliacao-de-precos-ranking-de-historicos-mobile"></a><strong>Avaliação de Preços (Ranking de Históricos)</strong></td>
-      <td><img style="height:700px; width:auto" src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/mobile/04.png" alt="Avaliação de preços"></td>
+      <td><img style="height:700px; width:auto" src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/mobile/03.png" alt="Avaliação de preços"></td>
     </tr>
     <tr>
-      <td><a id="videos-de-review-mobile"></a><strong>Vídeos de Review</strong></td>
-      <td><img style="height:700px; width:auto" src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/mobile/05.png" alt="Vídeos de review"></td>
+      <td><a id="carrinho-de-compras-mobile"></a><strong>Carrinho de Compras</strong></td>
+      <td><img style="height:700px; width:auto" src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/mobile/04.png" alt="Carrinho de compras"></td>
     </tr>
     <tr>
-      <td><a id="carrinho-de-compras-e-finalizacao-de-pedido-mobile"></a><strong>Carrinho de Compras e Finalização de Pedido</strong></td>
-      <td><img style="height:700px; width:auto" src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/mobile/06.png" alt="Carrinho de compras e finalização de pedido"></td>
+      <td><a id="finalizacao-de-pedido-mobile"></a><strong>Finalização de Pedido</strong></td>
+      <td><img style="height:700px; width:auto" src="https://raw.githubusercontent.com/marcelo-de-santana/imagioteca/refs/heads/master/gamer%20store/mobile/05.png" alt="Finalização de pedido"></td>
     </tr>
   </table>
 </div>
